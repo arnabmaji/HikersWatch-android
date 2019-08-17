@@ -25,7 +25,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center_vertical"
+            android:gravity="top"
             android:text="Latitude:"
             android:textAlignment="gravity"
             android:textColor="@android:color/background_light"
@@ -59,7 +59,7 @@
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
@@ -73,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center_vertical"
+            android:gravity="top"
             android:text="Longitude:"
             android:textAlignment="gravity"
             android:textColor="@android:color/background_light"
@@ -93,7 +93,7 @@
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
@@ -127,7 +127,7 @@
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="0dp"
-        android:layout_height="40dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
@@ -160,11 +160,13 @@
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="429dp"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
